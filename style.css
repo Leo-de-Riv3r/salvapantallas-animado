@@ -1,0 +1,72 @@
+div {
+    height: 40px;
+    width: 30%;
+    background: black;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  #rect {
+    animation-name: rainbow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  @keyframes rainbow {
+    0% {
+      background-color: blue;
+      top: 0px;
+      left:0px;
+    }
+    10% {
+      background-color: lightgreen;
+      top: 50px;
+      left:70%;
+    }
+    20% {
+      background-color: green;
+      top: 100px;
+      left: 0px;
+     }
+     30%{
+       background-color: cyan;
+       top:150px;
+       left:70%;
+     }
+     40%{
+       background-color: skyblue;
+       top:200px;
+       left:0px;
+     }
+     50%{
+     	background-color: blue;
+     	top:250px;
+     	left:70%;
+     }
+     60%{
+     	background-color: purple;
+     	top:300px;
+     	left:0px;
+     }
+     70%{
+     	background-color: yellow;
+     	top:350px;
+     	left:70%;
+     }
+     80%{
+     	background-color: blur;
+     	top:400px;
+     	left:0px;
+     }
+     90%{
+     	background-color: gray;
+     	top:450px;
+     	left:70%;
+     }
+     100%{
+     	background-color: black;
+     	top:500px;
+     	left:0px;
+     }
+  }
